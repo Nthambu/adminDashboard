@@ -1,0 +1,50 @@
+.widget-container{
+    display: flex;
+    align-items: space-between;
+    margin-right:30px;
+    margin-left: 20px;
+    width: 950px;
+    
+    .containers{
+        color:#fff;
+        width:325px;
+        height:130px;
+        background-color: #fff;
+        border-radius: 5px;
+        // color:#fff;
+        margin: 10px;
+        box-shadow: 5px 5px 5px #939393;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        gap:20px;
+        font-size: 25px;
+        &.green{
+            background-color: rgb(4,67,66);
+
+        }
+        &.yellow{
+            background-color: rgb(237,158,32);
+        }
+        &.red{
+            background-color: rgb(126,5,5);
+        }
+        &.blue{
+            background-color: rgb(105,32,251);
+        }
+       
+        @media screen  and (max-width:1600px){
+            width:300px;
+        }
+            
+            .users{
+
+                display: block;
+                
+            }
+
+
+        
+
+    }
+}

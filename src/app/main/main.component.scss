@@ -1,0 +1,59 @@
+.container-fluid{
+    width:950px;
+    position: relative;
+    .top-selection{
+        width:950px;
+    }
+    
+  
+    
+
+.middle-section {
+    width:950px;
+    display: flex;
+    margin-top:20px;
+    height: 200px;
+    gap:25px;
+    position: relative;
+    
+    
+    
+    .widget-left {
+
+        width: 60%;
+        box-shadow: 5px 5px 5px #939393;
+       
+    }
+    
+    .widget-right {
+      
+        width: 40%;
+        box-shadow: 5px 5px 5px #939393;
+        
+    }
+    
+    @media only screen and (max-width: 1600px) {
+        /* Add responsive styles here if needed */
+    }
+}
+
+.bottom-selection{
+    margin-top:20px;
+    height:200px;
+    gap:25px;
+    display: flex;
+    width:950px;
+    justify-content: space-between;
+    .widget-left{
+        width:50%;
+        box-shadow: 5px 5px 5px #939393;
+        
+
+    }
+    .widget-right{
+        width:50%;
+        box-shadow: 5px 5px 5px #939393;
+        
+    }
+}
+}
